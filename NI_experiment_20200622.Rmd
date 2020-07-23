@@ -86,7 +86,7 @@ style_mono_accent(
 
 - Delays nitrification by temporarily deactivating of ammonia monooxygenase (AMO) - enzyme responsible for ammonia oxidation 
 
-- α subunit of AMO is encoded by the amoA gene, which is homologous in AOA and AOB
+- α-subunit of AMO is encoded by the amoA gene, which is homologous in AOA and AOB
 
 - Both AOA and AOB could be inhibited by nitrapyrin
 
@@ -136,8 +136,6 @@ style_mono_accent(
 
 - microbial VOC emission in the rhizopshere
 
-- the effect of nitrapyrin on the wheat yield and grain quality (tbd)
-
 ---
 
 ## A field study
@@ -156,7 +154,7 @@ Fertilizer liquid ammonium nitrate (NH<sub>4</sub>NO<sub>3</sub>) & nitrificatio
 
 <strong style="color: #66C2A5;">Treatment</strong>:
 - Control (without application of fertilizer + NI)
-- NI (wit application of fertilizer + NI)
+- NI (with application of fertilizer + NI)
 
 <strong style="color: #66C2A5;">Sampling date</strong>:
 - 2019-07-23 = grain-filling period
