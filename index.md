@@ -44,7 +44,7 @@ Code:
 ## html iframe to embed the slide.
 
 <div class="resp-container">
-    <iframe class="testiframe" src="https://ruthlys.github.io/Presentation_NI_experiment_20200622/">
+    <iframe class="testiframe" src=https://ruthlys.github.io/presentation_NI/use_master.html">
       Fallback text here for unsupporting browsers, of which there are scant few.
     </iframe>
 </div>
@@ -71,7 +71,7 @@ Result:
 </style>
 
 <div class="resp-container">
-    <iframe class="testiframe" src="https://ruthlys.github.io/Presentation_NI_experiment_20200622/">
+    <iframe class="testiframe" src="https://ruthlys.github.io/presentation_NI//NI_experiment_20200622.html">
       Fallback text here for unsupporting browsers, of which there are scant few.
     </iframe>
 </div>
