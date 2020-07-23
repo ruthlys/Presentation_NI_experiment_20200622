@@ -18,9 +18,13 @@ output:
 th { font-size: 12px; }
 td { font-size: 12px; }
 
-b, strong {
-   color: black;
-   }
+# b, strong {
+#    color: black;
+# }
+
+.remark-slide tr:nth-child(2n) {
+  background-color: white !important;
+}
 
 ```
 
@@ -69,7 +73,7 @@ style_mono_accent(
 - Nitrification inhibitors (e.g. Nitrapyrin) commonly used in combination with N-fertilizers to counteract adverse effects while increasing soil N retention and crop yields
 
 <p align="center">
-  <img width="450" src="images/nitrification.png">
+  <img width="400" src="images/nitrification.png">
 </p>
 
 <font size="1">*A keystone species is a species which has a disproportionately large effect on its natural environment relative to its abundance (source: Wikipedia)</font> 
@@ -90,15 +94,13 @@ style_mono_accent(
   <img width="700" src="images/nitrapyrin.png">
 </p>
 
-<br/><br/>
-
  <font size="1"> Figure source: Nitrification in agricultural soils: impact, actors and mitigation <a href="https://www-sciencedirect-com.erable.inrs.ca:2048/science/article/pii/S0958166917302239#fig0005">(Beeckmann et al., 2018) </a></font> 
 
 ---
 
 ### What are the effects of nitrapyrin on AOA and AOB?
 
-- Studies found varying effects on AOA and AOB gene abundance (*amoA* gene), AOA:AOB ratio and nitrification rates 
+- Studies found varying effects on AOA and AOB gene abundance (*amoA* gene), AOA:AOB ratio and nitrification rates ([<strong style="color: #66C2A5;">Lehtovirta-Morley et al., 2013</strong>](https://www.nature.com/articles/ismej201542), [<strong style="color: #66C2A5;">Shen et al., 2013</strong>](https://academic.oup.com/femsle/article-lookup/doi/10.1111/1574-6968.12164), [<strong style="color: #66C2A5;">Gu et al., 2018</strong>](https://www.researchgate.net/publication/326259363_Nitrapyrin_affects_the_abundance_of_ammonia_oxidizers_rather_than_community_structure_in_a_yellow_clay_paddy_soil))
 
 - Suggest that nitrapyrin shifts the AOA:AOB ratio, thus inhibiting nitrification at different rates depending on contribution of AOA and AOB to nitrification
 
@@ -830,7 +832,7 @@ PERMANOVA of rhizosphere VOC composition
 # DT(): R data objects (matrices or data frames) can be displayed as tables on HTML pages, and DataTables provides filtering, 
 # pagination, sorting, and many other features in the tables
 library(DT)
-voc_table <- fread(file="/Users/ruthschmidt/Desktop/images/voc_table.txt")
+voc_table <- fread(file="images/voc_table.txt")
 DT::datatable(
   voc_table,
   rownames = FALSE,
@@ -911,7 +913,7 @@ heatmap.cpds
 
 - Results confirm  hypothesis that nitrapyrin alters the relative abundance of non-target bacteria, archaea, fungi and associated nitrogen-cycle functions
 
-- Effects of nitrification inhibitors might have far reaching but difficult to determine if shifts  caused directly (e.g. off-target toxic effects) or indirectly (through reduced activities of ammonia-oxidizers) 
+- Effects of nitrification inhibitors might be far reaching, but difficult to determine whether shifts caused directly (e.g. off-target toxic effects) or indirectly (through reduced activities of ammonia-oxidizers) 
 
 - Shifts not reflected in VOC profiles of rhizosphere, suggesting that nitrapyrin did not affect soil functionality
 
