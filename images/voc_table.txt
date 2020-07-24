@@ -1,0 +1,14 @@
+Compound ID	Class	RT	RI	P-value
+1377_alpha-Pinene	Terpene	6.93	938.8	5.28E-09
+"386_Hexanoic acid, methyl ester"	Ester	6.75	927.8	1.57E-06
+325_Unknown		2.04	613.2	4.18E-06
+"279_2,2-Diethoxyethanol"	Alcohol	2.52	639.4	5.64E-06
+602_Unknown		7.07	947.3	1.60E-05
+1099_Toluene	Alcohol	4.34	769.4	2.66E-05
+364_Isopropyl acetate	Ester	3.13	680.7	4.59E-05
+638_Unknown		14.57	1459.9	1.41E-04
+1072_Unknown		12.68	1316.5	2.57E-04
+"483_Carbamic acid, methyl-, ethylester"	Ester	6.28	898.9	2.67E-04
+"107_1-Hexene, 4-methyl-"	Alkene	2.65	647.6	3.38E-04
+38_Methyl acetate	Ester	2.38	630.9	3.92E-04
+"1058_1,8-Octanediol"	Alcohol	9.68	1109.3	8.28E-04
